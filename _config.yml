@@ -19,7 +19,6 @@ metadata_edit_url: http://prose.io/#juanrabp24/sdg-data-madrid/edit/develop/meta
 #
 # The list of languages that are translated. The first one is the default.
 languages:
-  - en
   - es
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
@@ -28,7 +27,7 @@ languages:
 remote_theme: open-sdg/open-sdg@1.2.0
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: Indicadores para los objetivos de Desarrollo Sostenible
 url: ""
 environment: staging
 
@@ -67,8 +66,8 @@ email_contacts:
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Australia
-  adjective: Australian
+  name: Spain
+  adjective: Spain
 
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
@@ -77,24 +76,12 @@ frontpage_introduction_banner:
   description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
-  description: Click on each goal for our Sustainable Development Goal global indicator data.
+  title: Indicadores con datos sobre el desarrollo sostenible
+  description: Haga click en un objetivo para ver los datos de Desarrollo Sostenible
 
 frontpage_cards:
   - title: frontpage.download_all
     include: components/download-all-data.html
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    button_label: Read more
-    button_link: https://example.com
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    button_label: Read more
-    button_link: https://example.com
 
 # Pages
 collections:
@@ -117,24 +104,6 @@ menu:
     translation_key: general.goals
   - path: /reporting-status
     translation_key: menu.reporting_status
-  - path: /about
-    translation_key: menu.about
-  - path: /guidance
-    translation_key: menu.guidance
-  - path: /faq
-    translation_key: menu.faq
-  - path: /news
-    translation_key: menu.updates
-
-footer_menu:
-  - path: mailto:my-email-address@example.com
-    translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
-    translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
